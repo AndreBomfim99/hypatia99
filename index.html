@@ -1,39 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Hypatia</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>Meu Site</h1>
-        <nav>
-            <ul>
-                <li><a href="#section1">Seção 1</a></li>
-                <li><a href="#section2">Seção 2</a></li>
-                <li><a href="#section3">Seção 3</a></li>
-            </ul>
-        </nav>
+    <header class="menu-principal">
+        <main>
+            <nav>
+                <div class="header-1">
+                    <div class="logo">
+                        <img src="./assets/img/png/logo.png">
+                    </div>
+                    <div class="redes-sociais">
+                        <ul>                           
+                            <li>
+                                <a href="">
+                                    <img src="./assets/img/png/face.png" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/andrebomfim999">
+                                    <img src="./assets/img/png/tw.png" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/andr%C3%A9-bomfim-93427128/">
+                                    <img src="./assets/img/png/linkedin.png" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </main>
     </header>
-    <main>
-        <section id="section1">
-            <h2>Seção 1</h2>
-            <p>Conteúdo da seção 1...</p>
-        </section>
-        <section id="section2">
-            <h2>Seção 2</h2>
-            <p>Conteúdo da seção 2...</p>
-        </section>
-        <section id="section3">
-            <h2>Seção 3</h2>
-            <p>Conteúdo da seção 3...</p>
-        </section>
+    <main class="col-100 menu-urls">
+        <nav>
+            <div class="header-2">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About me</a>
+                        </li>
+                        <li>
+                            <a href="">Articles</a>
+                        </li>
+                        <li>
+                            <a href="">Projects</a>
+                        </li>                        
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="busca">
+                    <input placeholder="Search Something" type="text">
+                </div>                
+            </div>
+        </nav>
     </main>
     <footer>
         <p>&copy; 2024 Meu Site</p>
     </footer>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
