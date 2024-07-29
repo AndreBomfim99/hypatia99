@@ -1,42 +1,102 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 1em 0;
-    text-align: center;
+ul {
+    padding: 0px;
 }
 
-nav ul {
+.menu-principal {
+    width: 100%;
+    background-color: #e20505;
+    height: 60px;   /* Height of menu-principal */
+}
+
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 16px;
+    width: 70%;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
     list-style: none;
-    padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+/* centralizes the icons of socials networks */
+.redes-sociais {
+    width: 25%;
+    float: right;
 }
 
-nav ul li a {
-    color: white;
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
     text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
-main {
-    padding: 1em;
+.menu {
+    width: 70%;
+    float: left;
 }
 
-section {
-    margin-bottom: 2em;
-}
-
-footer {
-    background-color: #333;
-    color: white;
+.busca {
     text-align: center;
-    padding: 1em 0;
+    width: 30%;
+    float: right;
+}
+
+.busca input {
+    background-image: url("../../assets/img/png/icone-search.png");
+    background-repeat: no-repeat;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
