@@ -1,0 +1,32 @@
+.div_cv {
+    margin: 20px;
+    text-align: justify;
+}
+
+.list_cv {
+    margin: 40px;
+}
+
+.cover {
+    width: 100%; /* A div .cover ocupará 100% da largura da tela */
+    height: auto; /* A altura será ajustada automaticamente */
+    display: flex; /* Para centralizar a imagem dentro da div */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    overflow: hidden; /* Esconde partes da imagem que ultrapassem o tamanho da div */
+}
+
+.cover2 {
+    width: 100%;
+    height: 100%;
+}
+
+.cover2 img {
+    width: 100%; /* A imagem ocupará 100% da largura da div .cover2 */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+    object-fit: cover; /* Faz com que a imagem cubra a área da div sem distorção */
+}
+
+.small-sup {
+    font-size: 0.7em;
+}
